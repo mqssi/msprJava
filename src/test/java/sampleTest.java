@@ -25,17 +25,17 @@ public class sampleTest {
     }
 
 
-    @Test
-    public void testSetAgentObject(){
+    // @Test
+    // public void testSetAgentObject(){
 
-        HashMap<Integer, Agent> agentList = new HashMap<>();
-        agentList.get(0).getListObject().get(0).setHasObject(true);
-        agentList.get(0).getListObject().get(6).setHasObject(true);
-        agentList.get(0).getListObject().get(4).setHasObject(true);
+        // HashMap<Integer, Agent> agentList = new HashMap<>();
+        // agentList.get(0).getListObject().get(0).setHasObject(true);
+        // agentList.get(0).getListObject().get(6).setHasObject(true);
+        // agentList.get(0).getListObject().get(4).setHasObject(true);
 
-        //assertTrue(agent.getListObject() =="test" );
+        assertTrue(agent.getListObject() =="test" );
 
 
-    }
+    // }
 
 }
