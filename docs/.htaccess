@@ -1,0 +1,7 @@
+#Protect multiple files
+<FilesMatch "^(Jordy|Massi|Victor|Maxime).html$">
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile C:\xampp\htdocs\dashboard\.htpasswd
+Require valid-user
+</FilesMatch>
