@@ -2,6 +2,6 @@
 <FilesMatch "^(Jordy|Massi|Victor|Maxime).html$">
 AuthName "Dialog prompt"
 AuthType Basic
-AuthUserFile C:\xampp\htdocs\dashboard\.htpasswd
+AuthUserFile /var/www/html/gosecuri/.htpasswd
 Require valid-user
 </FilesMatch>
