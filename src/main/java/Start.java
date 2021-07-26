@@ -68,7 +68,7 @@ public class Start {
     private void createHTMLBase() {
 
         try {
-            PrintWriter writer = new PrintWriter("./docf/index.html", "UTF-8");
+            PrintWriter writer = new PrintWriter("./docs/index.html", "UTF-8");
             writer.println("<!DOCTYPE HTML>");
             writer.println("<html>");
             writer.println("<head>");
@@ -82,7 +82,7 @@ public class Start {
             writer.println("<header id=\"header\">");
             writer.println("<div class=\"content\">");
             writer.println("<h1><a href=\"#\">GO Securi</a></h1>");
-            writer.println("<p>Vous accompagne depuis 2012<br />");
+            writer.prin
             writer.println("Sécurité, Gardiennage et Surveillance</p>");
             writer.println("<ul class=\"actions\">");
             for (int i = 0; i < agentList.size(); i++) {
@@ -108,7 +108,7 @@ public class Start {
             Agent agent = agentList.get(i);
 
             try {
-                PrintWriter writer = new PrintWriter(  "./docf/" + agent.getName() + ".html", "UTF-8");
+                PrintWriter writer = new PrintWriter(  "./docs/" + agent.getName() + ".html", "UTF-8");
                 writer.println("<!DOCTYPE HTML>");
                 writer.println("<html>");
                 writer.println("<head>");
