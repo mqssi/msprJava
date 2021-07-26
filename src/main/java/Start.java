@@ -8,7 +8,7 @@ public class Start {
     public Start INSTANCE;
     public final HashMap<Integer, Agent> agentList = new HashMap<>();
 
-    public String[] agentsName = { "Jordy", "Massi", "Victor","Test2" };
+    public String[] agentsName = { "Jordy", "Massi", "Victor","Maxime" };
 
     public static void main(String[] args) {
         new Start();
@@ -41,12 +41,10 @@ public class Start {
         agentList.get(2).getListObject().get(3).setHasObject(true);
         agentList.get(2).getListObject().get(0).setHasObject(true);
         //Agent4
-        agentList.get(3).getListObject().get(0).setHasObject(true);
         agentList.get(3).getListObject().get(1).setHasObject(true);
         agentList.get(3).getListObject().get(2).setHasObject(true);
         agentList.get(3).getListObject().get(3).setHasObject(true);
         agentList.get(3).getListObject().get(5).setHasObject(true);
-        agentList.get(3).getListObject().get(6).setHasObject(true);
     }
 
     private void addAgents() {
