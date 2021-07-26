@@ -15,6 +15,9 @@ public class Start {
     }
 
     public Start() {
+
+
+
         addAgents();
         setAgentObject();
         INSTANCE = this;
@@ -27,7 +30,11 @@ public class Start {
         t.start();
         t2.start();
 
+
+
     }
+
+
 
     private void setAgentObject() {
         //Agent1
@@ -45,6 +52,7 @@ public class Start {
         agentList.get(3).getListObject().get(1).setHasObject(true);
         agentList.get(3).getListObject().get(3).setHasObject(true);
         agentList.get(3).getListObject().get(4).setHasObject(true);
+        agentList.get(3).getListObject().get(5).setHasObject(true);
     }
 
     private void addAgents() {
