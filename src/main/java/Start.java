@@ -43,7 +43,7 @@ public class Start {
         //Agent4
         agentList.get(3).getListObject().get(0).setHasObject(true);
         agentList.get(3).getListObject().get(1).setHasObject(true);
-
+        agentList.get(3).getListObject().get(3).setHasObject(true);
     }
 
     private void addAgents() {
