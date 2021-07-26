@@ -50,12 +50,12 @@ public class Start {
         int i = 0;
         for (String s : agentsName) {
             HashMap<Integer, Object> map = new HashMap<>();
-            map.put(0, new Object("Mousquetontt", false));
+            map.put(0, new Object("Mousqueton", false));
             map.put(1, new Object("Gant d'intervention", false));
             map.put(2, new Object("Ceinture de sécurité tactique", false));
             map.put(3, new Object("Détecteur de métaux", false));
             map.put(4, new Object("Brassard de sécurité", false));
-            map.put(5, new Object("Lampe Torche", false));
+            map.put(5, new Object("Lampe torche", false));
             map.put(6, new Object("Gilet Pare Balle", false));
             agentList.put(i, new Agent(s, map));
             i++;
