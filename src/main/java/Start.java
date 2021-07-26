@@ -68,7 +68,7 @@ public class Start {
     private void createHTMLBase() {
 
         try {
-            PrintWriter writer = new PrintWriter("./docs/index.html", "UTF-8");
+            PrintWriter writer = new PrintWriter("./docf/index.html", "UTF-8");
             writer.println("<!DOCTYPE HTML>");
             writer.println("<html>");
             writer.println("<head>");
@@ -108,7 +108,7 @@ public class Start {
             Agent agent = agentList.get(i);
 
             try {
-                PrintWriter writer = new PrintWriter(  "./docs/" + agent.getName() + ".html", "UTF-8");
+                PrintWriter writer = new PrintWriter(  "./docf/" + agent.getName() + ".html", "UTF-8");
                 writer.println("<!DOCTYPE HTML>");
                 writer.println("<html>");
                 writer.println("<head>");
