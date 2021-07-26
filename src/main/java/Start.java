@@ -45,9 +45,9 @@ public class Start {
         agentList.get(3).getListObject().get(1).setHasObject(true);
         agentList.get(3).getListObject().get(2).setHasObject(true);
         agentList.get(3).getListObject().get(3).setHasObject(true);
-        agentList.get(3).getListObject().get(5).setHasObject(true);
+        agentList.get(3).getListObject().get(4).setHasObject(true);
         agentList.get(3).getListObject().get(6).setHasObject(true);
-    }
+    }   
 
     private void addAgents() {
         int i = 0;
