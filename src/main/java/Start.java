@@ -8,7 +8,7 @@ public class Start {
     public Start INSTANCE;
     public final HashMap<Integer, Agent> agentList = new HashMap<>();
 
-    public String[] agentsName = { "Jordy", "Massi", "Victor","Test" };
+    public String[] agentsName = { "Jordy", "Massi", "Victor","Test2" };
 
     public static void main(String[] args) {
         new Start();
