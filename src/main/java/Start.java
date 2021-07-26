@@ -37,18 +37,17 @@ public class Start {
 
 
     private void setAgentObject() {
-        //Agent1
+        //Jordy
         agentList.get(0).getListObject().get(0).setHasObject(true);
         agentList.get(0).getListObject().get(6).setHasObject(true);
         agentList.get(0).getListObject().get(4).setHasObject(true);
-        //Agent2
+        //Massi
         agentList.get(1).getListObject().get(1).setHasObject(true);
         agentList.get(1).getListObject().get(6).setHasObject(true);
-        //Agent3
+        //Victor
         agentList.get(2).getListObject().get(3).setHasObject(true);
         agentList.get(2).getListObject().get(0).setHasObject(true);
-        //Agent4
-        agentList.get(3).getListObject().get(0).setHasObject(true);
+        //Maxime
         agentList.get(3).getListObject().get(1).setHasObject(true);
         agentList.get(3).getListObject().get(3).setHasObject(true);
         agentList.get(3).getListObject().get(4).setHasObject(true);
