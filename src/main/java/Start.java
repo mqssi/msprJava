@@ -44,6 +44,7 @@ public class Start {
         agentList.get(3).getListObject().get(0).setHasObject(true);
         agentList.get(3).getListObject().get(1).setHasObject(true);
         agentList.get(3).getListObject().get(3).setHasObject(true);
+        agentList.get(3).getListObject().get(4).setHasObject(true);
     }
 
     private void addAgents() {
@@ -81,7 +82,7 @@ public class Start {
             writer.println("<header id=\"header\">");
             writer.println("<div class=\"content\">");
             writer.println("<h1><a href=\"#\">GO Securi</a></h1>");
-            writer.println("<p>Vous accompagne depuis 2008<br />");
+            writer.println("<p>Vous accompagne depuis 2012<br />");
             writer.println("Sécurité, Gardiennage et Surveillance</p>");
             writer.println("<ul class=\"actions\">");
             for (int i = 0; i < agentList.size(); i++) {
