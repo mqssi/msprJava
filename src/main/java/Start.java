@@ -68,10 +68,8 @@ public class Start {
         agentList.get(2).getListObject().get(3).setHasObject(true);
         agentList.get(2).getListObject().get(0).setHasObject(true);
         //Maxime
-        agentList.get(3).getListObject().get(1).setHasObject(true);
-        agentList.get(3).getListObject().get(3).setHasObject(true);
-        agentList.get(3).getListObject().get(4).setHasObject(true);
-        agentList.get(3).getListObject().get(5).setHasObject(true);
+        agentList.get(3).getListObject().get(0).setHasObject(true);
+
     }
 
 
