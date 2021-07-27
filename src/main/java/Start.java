@@ -14,9 +14,9 @@ public class Start {
         new Start();
     }
 
+    // Méthode principale, appèle les fonctions développées par la suite.
+
     public Start() {
-
-
 
         addAgents();
         setAgentObject();
@@ -30,11 +30,29 @@ public class Start {
         t.start();
         t2.start();
 
-
-
     }
 
 
+    // Permet d'ajouter les objets utilisés dans le programme.
+
+    private void addAgents() {
+        int i = 0;
+        for (String s : agentsName) {
+            HashMap<Integer, Object> map = new HashMap<>();
+            map.put(0, new Object("Mousqueton", false));
+            map.put(1, new Object("Gant d'intervention", false));
+            map.put(2, new Object("Ceinture de sécurité tactique", false));
+            map.put(3, new Object("Détecteur de métaux", false));
+            map.put(4, new Object("Brassard de sécurité", false));
+            map.put(5, new Object("Lampe torche", false));
+            map.put(6, new Object("Gilet Pare Balle", false));
+            agentList.put(i, new Agent(s, map));
+            i++;
+        }
+
+    }
+
+    // Assigne les objets aux agents créés précédemment.
 
     private void setAgentObject() {
         //Jordy
@@ -54,22 +72,9 @@ public class Start {
         agentList.get(3).getListObject().get(5).setHasObject(true);
     }
 
-    private void addAgents() {
-        int i = 0;
-        for (String s : agentsName) {
-            HashMap<Integer, Object> map = new HashMap<>();
-            map.put(0, new Object("Mousqueton", false));
-            map.put(1, new Object("Gant d'intervention", false));
-            map.put(2, new Object("Ceinture de sécurité tactique", false));
-            map.put(3, new Object("Détecteur de métaux", false));
-            map.put(4, new Object("Brassard de sécurité", false));
-            map.put(5, new Object("Lampe torche", false));
-            map.put(6, new Object("Gilet Pare Balle", false));
-            agentList.put(i, new Agent(s, map));
-            i++;
-        }
 
-    }
+
+    // Fonction qui crééra l'index.html, page principale.
 
 
     private void createHTMLBase() {
@@ -108,6 +113,9 @@ public class Start {
         }
 
     }
+
+
+    // Fonction qui crééra les pages personnelles des agents.
 
     private void createHTMLAgents() {
 
