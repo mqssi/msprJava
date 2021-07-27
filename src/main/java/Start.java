@@ -14,7 +14,7 @@ public class Start {
         new Start();
     }
 
-    // Méthode principale, appèle les fonctions développées par la suite.
+    // Méthode principale, appelle les fonctions développées par la suite.
 
     public Start() {
 
@@ -61,6 +61,8 @@ public class Start {
         agentList.get(0).getListObject().get(4).setHasObject(true);
         //Massi
         agentList.get(1).getListObject().get(1).setHasObject(true);
+        agentList.get(1).getListObject().get(3).setHasObject(true);
+        agentList.get(1).getListObject().get(5).setHasObject(true);
         agentList.get(1).getListObject().get(6).setHasObject(true);
         //Victor
         agentList.get(2).getListObject().get(3).setHasObject(true);
